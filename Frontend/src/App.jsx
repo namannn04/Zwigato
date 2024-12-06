@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div>App</div>
+    <div className='w-4/5 m-auto'>
+      <Navbar/>
+    </div>
   )
 }
 
