@@ -14,13 +14,13 @@ function Navbar() {
             <li>contactUs</li>
         </ul>
 
-        <div className="nav-right">
+        <div className="flex items-center gap-10">
             <FaSearch size={20} color="gray" />
             <div className="nav-search-icon">
                 <FaShoppingCart size={25} color="gray" />
                 <div className="dot"></div>
             </div>
-            <button>signIn</button>
+            <button className='bg-transparent text-base text-[#49557e] border border-[tomato] px-8 py-2 rounded-[50px] cursor-pointer hover:bg-[#e2ccc8] transition duration-300'>signIn</button>
         </div>
     </div>
   )
