@@ -1,7 +1,5 @@
 import React from "react";
 
-// https://www.youtube.com/watch?v=DBMPXJJfQEA&t=2624s
-
 function Header() {
   return (
     <div className="h-[34vw] my-7 mx-auto bg-landing-img bg-no-repeat relative bg-cover rounded-3xl">
