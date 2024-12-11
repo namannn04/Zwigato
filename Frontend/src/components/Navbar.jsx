@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "/logo.png";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");

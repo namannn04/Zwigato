@@ -1,11 +1,11 @@
-import menu1 from '../../public/menu/salad.jpg'
-import menu2 from '../../public/menu/rolls.jpeg'
-import menu3 from '../../public/menu/dessert.jpg'
-import menu4 from '../../public/menu/sandwhich.jpg'
-import menu5 from '../../public/menu/cake.jpg'
-import menu6 from '../../public/menu/pureVeg.jpeg'
-import menu7 from '../../public/menu/pasta.jpeg'
-import menu8 from '../../public/menu/noodles.jpg'
+import menu1 from '/menu/salad.jpg'
+import menu2 from '/menu/rolls.jpeg'
+import menu3 from '/menu/dessert.jpg'
+import menu4 from '/menu/sandwhich.jpg'
+import menu5 from '/menu/cake.jpg'
+import menu6 from '/menu/pureVeg.jpeg'
+import menu7 from '/menu/pasta.jpeg'
+import menu8 from '/menu/noodles.jpg'
 
 export const menu_list = [
     {
