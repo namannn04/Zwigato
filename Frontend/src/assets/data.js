@@ -57,7 +57,7 @@ export const food_list = [
         rate: rating_4,
         image: salad_1,
         price: 180,
-        description: "A colorful and vibrant blend of fresh, seasonal fruits, drizzled with a hint of honey and mint for a refreshing, healthy treat!",
+        description: "A refreshing mix of juicy, seasonal fruits for a sweet, healthy treat!",
         category: "Salad"
     },
     {
@@ -66,7 +66,7 @@ export const food_list = [
         rate: rating_5,
         image: salad_2,
         price: 150,
-        description: "A classic Mediterranean dish with crisp vegetables, feta cheese, olives, and a tangy olive oil dressing!",
+        description: "A Mediterranean classic with crisp veggies, feta, and olives!",
         category: "Salad"
     },
     {
@@ -75,7 +75,7 @@ export const food_list = [
         rate: rating_4,
         image: salad_3,
         price: 190,
-        description: "A vibrant mix of fresh vegetables, crunchy tortilla strips, and zesty lime dressing, bursting with Mexican-inspired flavors!",
+        description: "A zesty salad with crunchy tortilla strips and vibrant veggies!",
         category: "Salad"
     },
     {
@@ -84,7 +84,7 @@ export const food_list = [
         rate: rating_5,
         image: salad_4,
         price: 110,
-        description: "A wholesome blend of fresh, crunchy vegetables, lightly seasoned for a simple and healthy delight!",
+        description: "A wholesome blend of fresh, crunchy vegetables for a healthy bite!",
         category: "Salad"
     },
     {
@@ -93,7 +93,7 @@ export const food_list = [
         rate: rating_4,
         image: salad_5,
         price: 140,
-        description: "A low-carb, high-protein salad featuring creamy paneer, fresh vegetables, and a tangy dressing, perfect for a keto-friendly meal!",
+        description: "A protein-packed salad with creamy paneer and fresh veggies!",
         category: "Salad"
     }    
 ]
