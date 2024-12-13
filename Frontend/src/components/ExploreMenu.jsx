@@ -1,5 +1,5 @@
 import React from "react";
-import { menu_list } from "../assets/assets";
+import { menu_list } from "../assets/data";
 
 // https://www.youtube.com/watch?v=DBMPXJJfQEA&t=3300s
 
