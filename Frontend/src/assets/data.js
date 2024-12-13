@@ -7,6 +7,8 @@ import menu6 from '/menu/pureVeg.jpeg'
 import menu7 from '/menu/pasta.jpeg'
 import menu8 from '/menu/noodles.jpg'
 
+import rating_4 from '/assets/rating-4.png'
+import rating_5 from '/assets/rating-5.png'
 import salad_1 from '/foodList/fruitSalad.jpg'
 import salad_2 from '/foodList/greekSalad.jpg'
 import salad_3 from '/foodList/santaFeSalad.jpg'
@@ -52,14 +54,16 @@ export const food_list = [
     {
         _id: "1",
         name: "Fruit Salad",
+        rate: rating_4,
         image: salad_1,
         price: 180,
-        description: "A refreshing medley of fresh, vibrant fruits, perfect for a healthy and delicious treat!",
+        description: "A colorful and vibrant blend of fresh, seasonal fruits, drizzled with a hint of honey and mint for a refreshing, healthy treat!",
         category: "Salad"
     },
     {
         _id: "2",
         name: "Greek Salad",
+        rate: rating_5,
         image: salad_2,
         price: 150,
         description: "A classic Mediterranean dish with crisp vegetables, feta cheese, olives, and a tangy olive oil dressing!",
@@ -68,6 +72,7 @@ export const food_list = [
     {
         _id: "3",
         name: "Santa Fe Salad",
+        rate: rating_4,
         image: salad_3,
         price: 190,
         description: "A vibrant mix of fresh vegetables, crunchy tortilla strips, and zesty lime dressing, bursting with Mexican-inspired flavors!",
@@ -76,6 +81,7 @@ export const food_list = [
     {
         _id: "4",
         name: "Veggie Salad",
+        rate: rating_5,
         image: salad_4,
         price: 110,
         description: "A wholesome blend of fresh, crunchy vegetables, lightly seasoned for a simple and healthy delight!",
@@ -84,6 +90,7 @@ export const food_list = [
     {
         _id: "5",
         name: "Keto Paneer Salad",
+        rate: rating_4,
         image: salad_5,
         price: 140,
         description: "A low-carb, high-protein salad featuring creamy paneer, fresh vegetables, and a tangy dressing, perfect for a keto-friendly meal!",

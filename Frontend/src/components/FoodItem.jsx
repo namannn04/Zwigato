@@ -1,19 +1,19 @@
 import React from 'react'
 
-function FoodItem({id,name,price,description,image}) {
+function FoodItem({id,name,rate,price,description,image}) {
 
   return (
-    <div className='food-item'>
+    <div className='w-60 m-auto rounded-2xl shadow-custom transition duration-300 animate-fadeIn'>
         <div className="food-item-img-container">
-            <img className='food-item-image' src={image} alt="" />
+            <img className='w-60 h-60 rounded-t-2xl rounded-b-none' src={image} alt="" />
         </div>
-        <div className="food-item-info">
-            <div className="food-item-name-rating">
-                <p>{name}</p>
-                {/* <img src="assets.rating_starts" alt="" /> */}
+        <div className="p-3">
+            <div className="flex justify-between items-center mb-3">
+                <p className='text-xl font-medium'>{name}</p>
+                <img className='w-20' src={rate} alt="" />
             </div>
-            <p className='food-item-desc'>{description}</p>
-            <p className="food-item-price">{price}</p>
+            <p className='text-[#676767] text-xs'>{description}</p>
+            <p className="text-[tomato] text-xl font-medium my-3 mx-0">{price}</p>
         </div>
     </div>
   )
