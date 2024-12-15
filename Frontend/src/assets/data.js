@@ -14,6 +14,11 @@ import salad_2 from '/foodList/greekSalad.jpg'
 import salad_3 from '/foodList/santaFeSalad.jpg'
 import salad_4 from '/foodList/veggieSalad.jpg'
 import salad_5 from '/foodList/ketoPaneerSalad.jpg'
+import roll_1 from '/foodList/springRoll.jpg'
+import roll_2 from '/foodList/paneerTikkaRoll.jpg'
+import roll_3 from '/foodList/vegFrankie.jpeg'
+import roll_4 from '/foodList/kathiRoll.jpg'
+import roll_5 from '/foodList/mushroomRoll.jpg'
 
 export const menu_list = [
     {
@@ -95,5 +100,50 @@ export const food_list = [
         price: 140,
         description: "A protein-packed salad with creamy paneer and fresh veggies!",
         category: "Salad"
-    }    
+    },
+    {
+        _id: "6",
+        name: "Spring Roll",
+        rate: rating_5,
+        image: roll_1,
+        price: 50,
+        description: "Crispy and golden, packed with fresh veggies and mild spices!",
+        category: "Rolls"
+    },
+    {
+        _id: "7",
+        name: "Paneer Tikka Roll",
+        rate: rating_4,
+        image: roll_2,
+        price: 80,
+        description: "Smoky paneer cubes wrapped in a soft roti, bursting with flavors!",
+        category: "Rolls"
+    },
+    {
+        _id: "8",
+        name: "Veg Frankie",
+        rate: rating_5,
+        image: roll_3,
+        price: 80,
+        description: "A tangy veggie delight with a hint of street-style magic!",
+        category: "Rolls"
+    },
+    {
+        _id: "9",
+        name: "Kathi Roll",
+        rate: rating_4,
+        image: roll_4,
+        price: 50,
+        description: "Soft paratha rolled with spiced fillings, a perfect quick bite!",
+        category: "Rolls"
+    },
+    {
+        _id: "10",
+        name: "Mushroom Roll",
+        rate: rating_5,
+        image: roll_5,
+        price: 70,
+        description: "Juicy mushrooms in a creamy, spiced wrap, pure indulgence!",
+        category: "Rolls"
+    },
 ]
