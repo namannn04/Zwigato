@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landing-img': "url('/landing-page.png')",
+        'landing-img': "url('/assets/landing-page.png')",
       },
       fontSize: {
         'landingSize': 'max(4.5vw, 22px)',
