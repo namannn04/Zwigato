@@ -9,6 +9,7 @@ import menu8 from '/menu/noodles.jpg'
 
 import rating_4 from '/assets/rating-4.png'
 import rating_5 from '/assets/rating-5.png'
+
 import salad_1 from '/foodList/fruitSalad.jpg'
 import salad_2 from '/foodList/greekSalad.jpg'
 import salad_3 from '/foodList/santaFeSalad.jpg'
@@ -19,6 +20,11 @@ import roll_2 from '/foodList/paneerTikkaRoll.jpg'
 import roll_3 from '/foodList/vegFrankie.jpeg'
 import roll_4 from '/foodList/kathiRoll.jpg'
 import roll_5 from '/foodList/mushroomRoll.jpg'
+import des_1 from '/foodList/brownieSundae.jpg'
+import des_2 from '/foodList/chocoLavaCake.jpg'
+import des_3 from '/foodList/hotChocolateFudgeSundae.jpg'
+import des_4 from '/foodList/kitkatJarCake.jpeg'
+import des_5 from '/foodList/nutellaWaffle.jpg'
 
 export const menu_list = [
     {
@@ -145,5 +151,50 @@ export const food_list = [
         price: 70,
         description: "Juicy mushrooms in a creamy, spiced wrap, pure indulgence!",
         category: "Rolls"
+    },
+    {
+        _id: "11",
+        name: "Brownie Sundae",
+        rate: rating_4,
+        image: des_1,
+        price: 120,
+        description: "Warm brownie with vanilla ice cream, chocolate sauce, and crunchy nuts!",
+        category: "Desserts"
+    },
+    {
+        _id: "12",
+        name: "Choco Lava Cake",
+        rate: rating_5,
+        image: des_2,
+        price: 120,
+        description: "Soft chocolate cake with a gooey molten chocolate center!",
+        category: "Desserts"
+    },
+    {
+        _id: "13",
+        name: "Hot Chocolate Fudge Sundae",
+        rate: rating_4,
+        image: des_3,
+        price: 120,
+        description: "Vanilla ice cream layered with hot chocolate fudge and sprinkled with nuts!",
+        category: "Desserts"
+    },
+    {
+        _id: "14",
+        name: "Kitkat Jar Cake",
+        rate: rating_5,
+        image: des_4,
+        price: 120,
+        description: "Layers of moist chocolate cake and crushed KitKat in a jar!",
+        category: "Desserts"
+    },
+    {
+        _id: "15",
+        name: "Nutella Waffle",
+        rate: rating_4,
+        image: des_5,
+        price: 120,
+        description: "Crispy waffle topped generously with creamy Nutella!",
+        category: "Desserts"
     },
 ]
