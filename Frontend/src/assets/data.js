@@ -25,6 +25,9 @@ import des_2 from '/foodList/chocoLavaCake.jpg'
 import des_3 from '/foodList/hotChocolateFudgeSundae.jpg'
 import des_4 from '/foodList/kitkatJarCake.jpeg'
 import des_5 from '/foodList/nutellaWaffle.jpg'
+import sand_1 from '/foodList/vegSandwhich.jpg'
+import sand_2 from '/foodList/grilledPaneerSandwhich.jpeg'
+import sand_3 from '/foodList/caoleslawColdSandwhich.jpg'
 
 export const menu_list = [
     {
@@ -197,4 +200,31 @@ export const food_list = [
         description: "Crispy waffle topped generously with creamy Nutella!",
         category: "Desserts"
     },
+    {
+        _id: "16",
+        name: "Veg Sandwhich",
+        rate: rating_5,
+        image: sand_1,
+        price: 70,
+        description: "A classic sandwich with fresh veggies and a tangy spread!",
+        category: "Sandwhich"
+    },
+    {
+        _id: "17",
+        name: "Grilled Paneer Sandwhich",
+        rate: rating_4,
+        image: sand_2,
+        price: 90,
+        description: "Soft paneer slices grilled to perfection in a sandwich!",
+        category: "Sandwhich"
+    },
+    {
+        _id: "18",
+        name: "Cole Slaw Sandwhich",
+        rate: rating_5,
+        image: sand_3,
+        price: 80,
+        description: "Crunchy coleslaw with a creamy dressing in a soft sandwich!",
+        category: "Sandwhich"
+    }
 ]
