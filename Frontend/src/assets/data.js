@@ -28,6 +28,8 @@ import des_5 from '/foodList/nutellaWaffle.jpg'
 import sand_1 from '/foodList/vegSandwhich.jpg'
 import sand_2 from '/foodList/grilledPaneerSandwhich.jpeg'
 import sand_3 from '/foodList/caoleslawColdSandwhich.jpg'
+import sand_4 from '/foodList/cheeseGrilledSandwhich.jpg'
+import sand_5 from '/foodList/clubSandwhich.jpg'
 
 export const menu_list = [
     {
@@ -226,5 +228,23 @@ export const food_list = [
         price: 80,
         description: "Crunchy coleslaw with a creamy dressing in a soft sandwich!",
         category: "Sandwhich"
-    }
+    },
+    {
+        _id: "19",
+        name: "Cheese Grilled Sandwhich",
+        rate: rating_4,
+        image: sand_4,
+        price: 80,
+        description: "Melted cheese and veggies in a crispy, golden grilled sandwich!",
+        category: "Sandwhich"
+    },
+    {
+        _id: "20",
+        name: "Club Sandwhich",
+        rate: rating_5,
+        image: sand_5,
+        price: 100,
+        description: "A triple-decker sandwich with layers of veggies, cheese, and sauces!",
+        category: "Sandwhich"
+    },
 ]
