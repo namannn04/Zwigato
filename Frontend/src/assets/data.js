@@ -30,6 +30,11 @@ import sand_2 from '/foodList/grilledPaneerSandwhich.jpeg'
 import sand_3 from '/foodList/caoleslawColdSandwhich.jpg'
 import sand_4 from '/foodList/cheeseGrilledSandwhich.jpg'
 import sand_5 from '/foodList/clubSandwhich.jpg'
+import cake_1 from '/foodList/redVelvetCake.jpg'
+import cake_2 from '/foodList/chocolateCake.jpeg'
+import cake_3 from '/foodList/rasmalaiCake.jpg'
+import cake_4 from '/foodList/butterscotchCake.jpg'
+import cake_5 from '/foodList/cheeseCake.jpg'
 
 export const menu_list = [
     {
@@ -246,5 +251,50 @@ export const food_list = [
         price: 100,
         description: "A triple-decker sandwich with layers of veggies, cheese, and sauces!",
         category: "Sandwhich"
+    },
+    {
+        _id: "21",
+        name: "Red Velvet Cake",
+        rate: rating_4,
+        image: cake_1,
+        price: 150,
+        description: "A rich, velvety cake with a hint of cocoa and a luscious cream cheese frosting!",
+        category: "Cake"
+    },
+    {
+        _id: "22",
+        name: "Chocolate Cake",
+        rate: rating_5,
+        image: cake_2,
+        price: 120,
+        description: "A moist, decadent cake with layers of chocolate ganache!",
+        category: "Cake"
+    },
+    {
+        _id: "23",
+        name: "Rasmalai Cake",
+        rate: rating_4,
+        image: cake_3,
+        price: 180,
+        description: "A fusion cake with the flavors of rasmalai and cardamom!",
+        category: "Cake"
+    },
+    {
+        _id: "24",
+        name: "Butterscotch Cake",
+        rate: rating_5,
+        image: cake_4,
+        price: 140,
+        description: "A light, spongy cake with crunchy butterscotch bits and caramel drizzle!",
+        category: "Cake"
+    },
+    {
+        _id: "25",
+        name: "Cheese Cake",
+        rate: rating_4,
+        image: cake_5,
+        price: 160,
+        description: "A creamy, tangy cheesecake with a buttery biscuit base!",
+        category: "Cake"
     },
 ]
