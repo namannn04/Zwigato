@@ -40,6 +40,11 @@ import pureVeg_2 from '/foodList/rajmaChawal.jpg'
 import pureVeg_3 from '/foodList/choleBhature.jpg'
 import pureVeg_4 from '/foodList/choleKulche.jpg'
 import pureVeg_5 from '/foodList/alooPoori.jpg'
+import pasta_1 from '/foodList/whiteSaucePasta.jpeg'
+import pasta_2 from '/foodList/spaghettiPasta.jpeg'
+import pasta_3 from '/foodList/cheesyMacroni.jpg'
+import pasta_4 from '/foodList/redSaucePasta.jpg'
+import pasta_5 from '/foodList/mixSaucePasta.jpg'
 
 export const menu_list = [
     {
@@ -346,5 +351,50 @@ export const food_list = [
         price: 100,
         description: "Crispy, golden pooris served with spicy potato curry!",
         category: "Pure Veg"
+    },
+    {
+        _id: "31",
+        name: "White Sauce Pasta",
+        rate: rating_4,
+        image: pasta_1,
+        price: 120,
+        description: "Pasta cooked in a creamy, cheesy white sauce with veggies!",
+        category: "Pasta"
+    },
+    {
+        _id: "32",
+        name: "Spaghetti Pasta",
+        rate: rating_5,
+        image: pasta_2,
+        price: 130,
+        description: "Spaghetti tossed in a tangy tomato sauce with fresh herbs!",
+        category: "Pasta"
+    },
+    {
+        _id: "33",
+        name: "Cheesy Macroni",
+        rate: rating_4,
+        image: pasta_3,
+        price: 110,
+        description: "Macaroni cooked in a creamy, cheesy sauce with a hint of spice!",
+        category: "Pasta"
+    },
+    {
+        _id: "34",
+        name: "Red Sauce Pasta",
+        rate: rating_5,
+        image: pasta_4,
+        price: 120,
+        description: "Pasta cooked in a rich, tangy tomato sauce with veggies!",
+        category: "Pasta"
+    },
+    {
+        _id: "35",
+        name: "Mix Sauce Pasta",
+        rate: rating_4,
+        image: pasta_5,
+        price: 130,
+        description: "Pasta cooked in a creamy, tangy mix of white and red sauces!",
+        category: "Pasta"
     },
 ]
