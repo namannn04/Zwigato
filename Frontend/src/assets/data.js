@@ -35,6 +35,11 @@ import cake_2 from '/foodList/chocolateCake.jpeg'
 import cake_3 from '/foodList/rasmalaiCake.jpg'
 import cake_4 from '/foodList/butterscotchCake.jpg'
 import cake_5 from '/foodList/cheeseCake.jpg'
+import pureVeg_1 from '/foodList/pavBhaji.jpg'
+import pureVeg_2 from '/foodList/rajmaChawal.jpg'
+import pureVeg_3 from '/foodList/choleBhature.jpg'
+import pureVeg_4 from '/foodList/choleKulche.jpg'
+import pureVeg_5 from '/foodList/alooPoori.jpg'
 
 export const menu_list = [
     {
@@ -296,5 +301,50 @@ export const food_list = [
         price: 160,
         description: "A creamy, tangy cheesecake with a buttery biscuit base!",
         category: "Cake"
+    },
+    {
+        _id: "26",
+        name: "Pav Bhaji",
+        rate: rating_5,
+        image: pureVeg_1,
+        price: 100,
+        description: "A spicy, tangy mix of veggies served with buttered pav!",
+        category: "Pure Veg"
+    },
+    {
+        _id: "27",
+        name: "Rajma Chawal",
+        rate: rating_4,
+        image: pureVeg_2,
+        price: 120,
+        description: "A comforting meal of kidney beans curry served with steamed rice!",
+        category: "Pure Veg"
+    },
+    {
+        _id: "28",
+        name: "Chole Bhature",
+        rate: rating_5,
+        image: pureVeg_3,
+        price: 140,
+        description: "Spicy chickpea curry served with deep-fried, puffed bread!",
+        category: "Pure Veg"
+    },
+    {
+        _id: "29",
+        name: "Chole Kulche",
+        rate: rating_4,
+        image: pureVeg_4,
+        price: 120,
+        description: "Spicy chickpea curry served with soft, fluffy kulchas!",
+        category: "Pure Veg"
+    },
+    {
+        _id: "30",
+        name: "Aloo Poori",
+        rate: rating_5,
+        image: pureVeg_5,
+        price: 100,
+        description: "Crispy, golden pooris served with spicy potato curry!",
+        category: "Pure Veg"
     },
 ]
