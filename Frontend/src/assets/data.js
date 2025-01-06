@@ -45,6 +45,11 @@ import pasta_2 from '/foodList/spaghettiPasta.jpeg'
 import pasta_3 from '/foodList/cheesyMacroni.jpg'
 import pasta_4 from '/foodList/redSaucePasta.jpg'
 import pasta_5 from '/foodList/mixSaucePasta.jpg'
+import noodles_1 from '/foodList/chowmein.jpg'
+import noodles_2 from '/foodList/hakkaNoodle.jpg'
+import noodles_3 from '/foodList/chilliGarlicNoodle.jpg'
+import noodles_4 from '/foodList/schezwanNoodle.jpg'
+import noodles_5 from '/foodList/paneerNoodle.jpg'
 
 export const menu_list = [
     {
@@ -396,5 +401,50 @@ export const food_list = [
         price: 130,
         description: "Pasta cooked in a creamy, tangy mix of white and red sauces!",
         category: "Pasta"
+    },
+    {
+        _id: "36",
+        name: "Chowmein",
+        rate: rating_5,
+        image: noodles_1,
+        price: 100,
+        description: "Stir-fried noodles with crunchy veggies and a hint of spice!",
+        category: "Noodles"
+    },
+    {
+        _id: "37",
+        name: "Hakka Noodle",
+        rate: rating_4,
+        image: noodles_2,
+        price: 120,
+        description: "Soft noodles tossed in a spicy, tangy sauce with fresh veggies!",
+        category: "Noodles"
+    },
+    {
+        _id: "38",
+        name: "Chilli Garlic Noodle",
+        rate: rating_5,
+        image: noodles_3,
+        price: 140,
+        description: "Noodles cooked in a spicy, garlicky sauce with crunchy veggies!",
+        category: "Noodles"
+    },
+    {
+        _id: "39",
+        name: "Schezwan Noodle",
+        rate: rating_4,
+        image: noodles_4,
+        price: 130,
+        description: "Noodles cooked in a fiery Schezwan sauce with veggies and herbs!",
+        category: "Noodles"
+    },
+    {
+        _id: "40",
+        name: "Paneer Noodle",
+        rate: rating_5,
+        image: noodles_5,
+        price: 150,
+        description: "Soft noodles tossed with paneer and veggies in a spicy sauce!",
+        category: "Noodles"
     },
 ]
