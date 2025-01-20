@@ -11,7 +11,7 @@ function FoodDisplay({ category }) {
       </h2>
       <div className="grid grid-cols-[repeat(auto-fill,_minmax(240px,1fr))] mt-8 gap-8 gap-y-12">
         {food_list.map((item, index) => {
-          if ((category === "All" || category === item.category)) {
+          if (category === "All" || category === item.category) {
             return (
               <FoodItem
                 key={index}
