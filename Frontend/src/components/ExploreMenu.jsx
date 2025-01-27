@@ -1,8 +1,6 @@
 import React from "react";
 import { menu_list } from "../assets/data";
 
-// https://www.youtube.com/watch?v=DBMPXJJfQEA&t=3300s
-
 function ExploreMenu({ category, setCategory }) {
   return (
     <div className="flex flex-col gap-5 " id="explore-menu">
