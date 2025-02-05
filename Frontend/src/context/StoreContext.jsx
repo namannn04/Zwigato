@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/data";
 
 export const StoreContext = createContext(null);
